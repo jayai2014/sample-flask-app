@@ -2,6 +2,7 @@ import os
 
 
 class BaseConfig(object):
+    #
     SECRET_KEY = "changeme"
     DEBUG = os.environ['DEBUG']
     DB_NAME = "postgres"
